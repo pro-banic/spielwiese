@@ -9,11 +9,11 @@ for lin in hand:
     wds = lin.split()
     #print(wds)
     for w in wds:
-        print(w)
-        if w in di :
-            di[w] = di[w] + 1
-            print("***gibts schon***")
-        else:
-            di[w] = 1
-            print("***NEW***")
-        print(di[w])
+
+        oldcount = di.get(w,0)
+        print(w, "old: ", oldcount)
+        newcount = oldcount + 1
+        di[w] = newcount
+        print(w, "new: ", newcount)
+
+print(di)

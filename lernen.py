@@ -15,4 +15,6 @@ for lin in hand:
 
 print(di)
 
+weiter hier:
 https://youtu.be/8DvywoWv6fI?t=18979
+

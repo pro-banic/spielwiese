@@ -10,10 +10,9 @@ for lin in hand:
     #print(wds)
     for w in wds:
 
-        oldcount = di.get(w,0)
-        print(w, "old: ", oldcount)
-        newcount = oldcount + 1
-        di[w] = newcount
-        print(w, "new: ", newcount)
+        di[w] = di.get(w,0) + 1
+       # print(w, "new: ", di[w])
 
 print(di)
+
+https://youtu.be/8DvywoWv6fI?t=18979

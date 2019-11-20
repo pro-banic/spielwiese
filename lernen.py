@@ -23,7 +23,7 @@ print ("das meistgenutzte Wort ist: ", theword, largest)
 
 '''
 weiter hier:
-https://youtu.be/8DvywoWv6fI?t=18979
+https://youtu.be/8DvywoWv6fI?t=19410
 '''
 
 
